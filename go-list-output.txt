@@ -1,0 +1,77 @@
+{
+	"Dir": "/Users/aaa/workspace/go-list-test-embed-error",
+	"ImportPath": "github.com/yz89122/go-list-test-embed-error",
+	"Name": "main",
+	"Target": "/Users/aaa/go/bin/go-list-test-embed-error",
+	"Root": "/Users/aaa/workspace/go-list-test-embed-error",
+	"Module": {
+		"Path": "github.com/yz89122/go-list-test-embed-error",
+		"Main": true,
+		"Dir": "/Users/aaa/workspace/go-list-test-embed-error",
+		"GoMod": "/Users/aaa/workspace/go-list-test-embed-error/go.mod",
+		"GoVersion": "1.20"
+	},
+	"Match": [
+		"."
+	],
+	"Stale": true,
+	"StaleReason": "build ID mismatch",
+	"GoFiles": [
+		"main.go"
+	],
+	"Imports": [
+		"fmt"
+	],
+	"Deps": [
+		"errors",
+		"fmt",
+		"internal/abi",
+		"internal/bytealg",
+		"internal/coverage/rtcov",
+		"internal/cpu",
+		"internal/fmtsort",
+		"internal/goarch",
+		"internal/goexperiment",
+		"internal/goos",
+		"internal/itoa",
+		"internal/oserror",
+		"internal/poll",
+		"internal/race",
+		"internal/reflectlite",
+		"internal/safefilepath",
+		"internal/syscall/execenv",
+		"internal/syscall/unix",
+		"internal/testlog",
+		"internal/unsafeheader",
+		"io",
+		"io/fs",
+		"math",
+		"math/bits",
+		"os",
+		"path",
+		"reflect",
+		"runtime",
+		"runtime/internal/atomic",
+		"runtime/internal/math",
+		"runtime/internal/sys",
+		"sort",
+		"strconv",
+		"sync",
+		"sync/atomic",
+		"syscall",
+		"time",
+		"unicode",
+		"unicode/utf8",
+		"unsafe"
+	],
+	"TestGoFiles": [
+		"main_test.go"
+	],
+	"TestImports": [
+		"embed",
+		"testing"
+	],
+	"TestEmbedPatterns": [
+		"go.mod"
+	]
+}
